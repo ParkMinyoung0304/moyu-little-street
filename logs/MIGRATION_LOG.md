@@ -49,3 +49,19 @@
   - 增加 `store-halo` 光晕，增强指向反馈。
   - 点击或键盘选择店铺时短暂保持激活态，和右侧店铺卡片联动更自然。
   - 尊重 `prefers-reduced-motion`，降低动态效果。
+
+## 2026-09-11
+
+- 任务类型：已有项目维护/GitHub 上传准备。
+- 工作目录：`/Users/czh/Documents/Codex/Workspace/project-004-moyu-little-street`
+- 备份目录：`logs/backups-20260911-213915/`
+- 修改文件：
+  - `.gitignore`
+  - `logs/MIGRATION_LOG.md`
+- Git 准备：
+  - 初始化本地 Git 仓库。
+  - 新增 `.gitignore`，排除 `.DS_Store` 与本地备份目录 `logs/backups-*/`。
+  - 提交首个本地快照，提交号：`8020c38`。
+- 上传状态：
+  - 本机未安装 `gh` 命令，当前无法直接在本机创建 GitHub 仓库。
+  - 等待用户提供已有 GitHub 仓库地址，或先在 GitHub 网页端创建空仓库后再推送。
