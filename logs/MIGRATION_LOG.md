@@ -65,3 +65,17 @@
 - 上传状态：
   - 本机未安装 `gh` 命令，当前无法直接在本机创建 GitHub 仓库。
   - 等待用户提供已有 GitHub 仓库地址，或先在 GitHub 网页端创建空仓库后再推送。
+
+## 2026-09-11
+
+- 任务类型：已有项目维护/GitHub 上传完成。
+- 工作目录：`/Users/czh/Documents/Codex/Workspace/project-004-moyu-little-street`
+- 备份目录：`logs/backups-20260911-224849/`
+- GitHub 仓库：`git@github.com:ParkMinyoung0304/moyu-little-street.git`
+- 操作记录：
+  - 生成并添加本机 SSH key 到 GitHub。
+  - `ssh -T git@github.com` 已认证为 `ParkMinyoung0304`。
+  - 执行 `git push -u origin main`，成功创建远端 `main` 分支。
+- 验证结果：
+  - `git ls-remote --heads origin` 返回 `dc6da6f2741c929a3434f4c27e78348769e0be24 refs/heads/main`。
+  - 本地分支已跟踪 `origin/main`。
